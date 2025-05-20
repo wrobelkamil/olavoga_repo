@@ -1,0 +1,1 @@
+pliki konfiguracyjne, nic ciekawego
