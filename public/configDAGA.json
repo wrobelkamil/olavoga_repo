@@ -1,0 +1,29 @@
+{
+  "paths": {
+    "base_import": "S:\\_KOLEKCJE_\\IMPORT",
+    "template_indd": "S:\\Graficy Specyfikacje\\Techniczne\\szablony_specyfikacje różne\\BIN\\SPECYFIKACJA_IMPORT nie otwierac tutaj tylko kopiowac.indd",
+    "excel_data": "G:\\_Projekty\\projekty.xlsx",
+    "excel_icon": "S:\\Graficy Specyfikacje\\Techniczne\\_PROGRAMY\\program files\\worknavigate\\icons\\icons8-excel-32.png",
+    "app_icon": "S:\\Graficy Specyfikacje\\Techniczne\\_PROGRAMY\\program files\\bin\\DAGAX.ico"
+  },
+  "indesign": {
+    "link_name": "przepisy prania nowy.ai",
+    "links_folder": "LINKS"
+  },
+  "daga": {
+    "max_color_groups": 6,
+    "date_pattern": "dd.mm.yyyy"
+  },
+  "barcode": {
+    "api_base": "https://bwipjs-api.metafloor.com/",
+    "bcid": "ean13",
+    "scale": 3,
+    "height": 90,
+    "text_included": true,
+    "textsize": 12,
+    "backgroundcolor": "ffffff",
+    "barcolor": "000000",
+    "crop_height": 138,
+    "margin_width": 22
+  }
+}

@@ -1,0 +1,10 @@
+[build]
+  publish = "public"
+  command = ""        # brak budowania – tylko statyczne JSON-y
+
+# opcjonalnie: redirecty albo cache control
+[[redirects]]
+  from = "/configDAGA.json"
+  to = "/configDAGA.json"
+  status = 200
+  force = true
