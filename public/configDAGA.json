@@ -6,23 +6,43 @@
     "excel_icon": "S:\\Graficy Specyfikacje\\Techniczne\\_PROGRAMY\\program files\\worknavigate\\icons\\icons8-excel-32.png",
     "app_icon": "S:\\Graficy Specyfikacje\\Techniczne\\_PROGRAMY\\program files\\bin\\DAGAX.ico"
   },
+  "context_menus": {
+    "text_paste_label": "Wklej",
+    "entry_paste_label": "Wklej"
+  },
   "indesign": {
     "link_name": "przepisy prania nowy.ai",
-    "links_folder": "LINKS"
+    "links_folder": "LINKS",
+    "extendscript_template": "var doc = app.open(File(\"{indd}\"));\nvar targetLinkName = \"{link_name}\"; ... doc.save(); doc.close();"
   },
   "daga": {
+    "date_pattern": "dd.mm.yyyy",
     "max_color_groups": 6,
-    "date_pattern": "dd.mm.yyyy"
+    "help_text": "Wprowadzenie:\nD.A.G.A. (Dowolne Automatyczne Generowanie Artykułów) – generuje CSV do InDesign.\n\nInstrukcje:\n1. Wypełnij pola podstawowe.\n2. Dodaj grupy kolorów przy pomocy przycisków + / -.\n3. Kliknij 'Wylicz' aby obliczyć QUANTITY.\n4. Użyj Import/Export do pracy z plikiem CSV.\n\nAutor: Kamil Wróbel"
+  },
+  "csv": {
+    "header": [
+      "DATE", "AUTHOR", "NAME", "OBJECTINFO", "OBJINF_PL", "SIZE", "ORG_SIZE",
+      "QUANTITY_COLOR&SIZE", "QUANTITY", "@IMAGE ORG_SAMPLE"
+    ],
+    "group_prefixes": {
+      "color": "COLOR",
+      "image_color": "@IMAGE COLOR",
+      "codetxt": "CODETXT",
+      "image_codebr": "@IMAGE CODEBR"
+    }
   },
   "barcode": {
-    "api_base": "https://bwipjs-api.metafloor.com/",
-    "bcid": "ean13",
-    "scale": 3,
-    "height": 90,
-    "text_included": true,
-    "textsize": 12,
-    "backgroundcolor": "ffffff",
-    "barcolor": "000000",
+    "service_url": "https://bwipjs-api.metafloor.com/",
+    "params": {
+      "bcid": "ean13",
+      "scale": 3,
+      "height": 90,
+      "includetext": true,
+      "textsize": 12,
+      "backgroundcolor": "ffffff",
+      "barcolor": "000000"
+    },
     "crop_height": 138,
     "margin_width": 22
   }
